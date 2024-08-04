@@ -22,7 +22,7 @@ namespace CSV_Merge
         public Form1()
         {
             InitializeComponent();
-            textBoxFolder.Text = @"\\sm-vie-fs\IRIS\Export - SM_Invoices\";
+            textBoxFolder.Text = @"C:\Temp\";
             if (Directory.Exists(SelectedFolderPath))
                 textBoxOutfile.Text = Path.Combine(SelectedFolderPath, "merge.csv");
         }
